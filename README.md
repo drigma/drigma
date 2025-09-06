@@ -9,7 +9,7 @@
 ## 🛠️ Tech Stack
 - **Languages**: C++, Python, C#, JavaScript  
 - **Technologies**: Git, Docker, Node.js  
-- **Tools**: Visual Studio, Ghidra, VS Code, CMake  
+- **Tools**: Visual Studio, Ghidra, IDA, VS Code, CMake  
 
 ---
 
