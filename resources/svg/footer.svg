@@ -1,19 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="z-index:1;position:relative" width="854px" height="120px" viewBox="0 0 854 120">
   <g>
-    <path d="" fill="#2C3E50" opacity="0.6">
-      <animate attributeName="d" dur="20s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1" calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="0s" values="
-        M854 120L 854 80Q 640.5 40 427 70T 0 95L 0 120 Z;
-        M854 120L 854 55Q 640.5 40 427 60T 0 75L 0 120 Z;
-        M854 120L 854 35Q 640.5 70 427 40T 0 75L 0 120 Z;
-        M854 120L 854 80Q 640.5 40 427 70T 0 95L 0 120 Z
+    <!-- Premier path inversé -->
+    <path fill="#2C3E50" opacity="0.6">
+      <animate attributeName="d" dur="20s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1" calcMode="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="0s" values="
+      M854 120 L854 80 Q640.5 40 427 70 Q213.5 100 0 80 L0 120 Z;
+      M854 120 L854 55 Q640.5 40 427 60 Q213.5 80 0 75 L0 120 Z;
+      M854 120 L854 35 Q640.5 70 427 40 Q213.5 10 0 55 L0 120 Z;
+      M854 120 L854 80 Q640.5 40 427 70 Q213.5 100 0 80 L0 120 Z
       "/>
     </path>
-    <path d="" fill="#34495E" opacity="0.6">
-      <animate attributeName="d" dur="20s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1" calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="-10s" values="
-        M854 120L 854 65Q 640.5 20 427 50T 0 40L 0 120 Z;
-        M854 120L 854 50Q 640.5 80 427 80T 0 50L 0 120 Z;
-        M854 120L 854 55Q 640.5 85 427 50T 0 35L 0 120 Z;
-        M854 120L 854 65Q 640.5 20 427 50T 0 40L 0 120 Z
+    <!-- Deuxième path inversé -->
+    <path fill="#34495E" opacity="0.6">
+      <animate attributeName="d" dur="20s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1" calcMode="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="-10s" values="
+      M854 120 L854 65 Q640.5 20 427 50 Q213.5 80 0 65 L0 120 Z;
+      M854 120 L854 50 Q640.5 80 427 80 Q213.5 80 0 50 L0 120 Z;
+      M854 120 L854 55 Q640.5 85 427 50 Q213.5 15 0 35 L0 120 Z;
+      M854 120 L854 65 Q640.5 20 427 50 Q213.5 80 0 65 L0 120 Z
       "/>
     </path>
   </g>
